@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin: 50px;
+    padding: 20px;
+    background-color: black;
+    color: greenyellow;
+    border: 5px solid greenyellow;
+    border-radius: 1px 25px 1px;
+    height: auto;
+    width: auto;
+}
+
+
+
+input{
+    background-color: black;
+    color: greenyellow;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btn{
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
+
+
+li{
+    color: greenyellow;
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    margin-right: 50px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete{
+    background-color: red;
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;;
+
+}

@@ -1,0 +1,36 @@
+h1{
+    background-color: greenyellow;
+}
+
+.red{
+    color: red;
+    background-color:lightsalmon
+}
+
+.blue{
+    color: blue;
+    background-color: lightblue;
+}
+
+.style{
+    
+    background-color: pink;
+    border: 1px solid black;
+}
+
+img{
+    height: 50%;
+    width: 50%;
+    box-shadow: 1px 1px 5px cyan;
+}
+
+button{
+    color: black;
+    background-color: greenyellow;
+}
+
+.btnStyle{
+    color: aliceblue;
+    background-color: blue;
+
+}

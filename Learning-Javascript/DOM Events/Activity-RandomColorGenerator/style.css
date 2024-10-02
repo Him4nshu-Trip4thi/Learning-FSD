@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: greenyellow;
+}
+
+div{
+    background-color: white;
+    color: black;
+    padding-top: 75px;
+    height: 400px;
+    width: 1400px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+button{
+    margin-bottom: 20px;
+    background-color: greenyellow;
+    color: black;
+}
+
+h3{
+    background-color: black;
+}
+
+p{
+    background-color: white;
+    width: 1380px;
+    height: 15px;
+    padding: 15px 15px 10px 5px;
+    /* border-radius: 50px 50px 50px 50px; */
+    position: absolute;
+    top: auto;
+}
+
+h1{
+    color: greenyellow;
+}
