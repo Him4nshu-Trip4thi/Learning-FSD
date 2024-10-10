@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+
+h1{
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input{
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: green;
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color:black;
+
+}
