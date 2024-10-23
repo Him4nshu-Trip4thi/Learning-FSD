@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll Dice</title>
+</head>
+<body>
+    <h1>Roll Dice</h1>
+    <button>Roll</button>
+    <h2>Dice Value : <%= Math.floor(Math.random() * 6) + 1  %></h2>
+    <h3></h3>
+
+
+    <script>
+        let button = document.querySelector("button");
+        button.addEventListener("click", () => {
+            let diceVal = Math.floor(Math.random() * 6) + 1;
+            alert("You rolled a dice and value came : " + diceVal);
+        
+            let h3=document.querySelector("h3");
+            h3.innerText="";
+            h3.append(`Dice Value: ${diceVal}`);
+
+        });
+    </script>
+</body>
+</html>
