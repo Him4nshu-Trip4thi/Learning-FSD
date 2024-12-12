@@ -21,8 +21,11 @@ app.listen(port,()=>{
 });
 
 app.get("/",(req,res)=>{
-    res.send("Server is running well !!");
+    res.redirect("/posts");
+    console.log("Server is running well !!");
 });
+
+// let posts = [];
 
 let posts = [
     {

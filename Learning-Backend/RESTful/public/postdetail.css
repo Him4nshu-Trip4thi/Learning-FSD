@@ -25,6 +25,7 @@ body {
     margin: 20px auto;
     width: 90%;
     max-width: 800px;
+    font-weight: 900;
 }
 
 .details-container h2 {
@@ -54,4 +55,24 @@ body {
 p {
     color: #666;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+button:hover .material-symbols-outlined {
+    color: #b92b27;
+}
+
+button .material-symbols-outlined {
+    font-size: 20px;
+    vertical-align: middle;
+    color: #666;
 }

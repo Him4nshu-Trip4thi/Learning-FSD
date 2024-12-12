@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quora :: Post Details</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&icon_names=content_copy" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/postdetail.css">
 </head>
@@ -15,7 +16,11 @@
     <div class="details-container">
         <h2>Here is your post in detail:</h2>
         <% if (post) { %>
-            <p>Post ID: <%= post.id %></p>
+            <p>Post ID: <span id="post-id"><%= post.id %></span>
+                <button id="copy-btn">
+                    <span class="material-symbols-outlined">content_copy</span>
+                </button>
+            </p>
             <div class="post">
                 <h3>@<%= post.username %></h3>
                 <h4><%= post.content %></h4>
@@ -24,5 +29,14 @@
             <p>Post details not available.</p>
         <% } %>
     </div>
+
+    <script>
+        document.getElementById('copy-btn').addEventListener('click', () => {
+            const postId = document.getElementById('post-id').textContent.trim();
+            navigator.clipboard.writeText(postId)
+                .then(() => alert('Post ID copied to clipboard!'))
+                .catch(err => console.error('Failed to copy text: ', err));
+        });
+    </script>
 </body>
 </html>

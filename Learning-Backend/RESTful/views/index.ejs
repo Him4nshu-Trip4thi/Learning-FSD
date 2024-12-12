@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <!-- Header -->
     <div class="header">
         <h1>Quora</h1>
         <a href="http://localhost:3000/posts/new" class="new-post-button">New Post</a>
     </div>
 
-    <!-- Post Cards -->
     <% for(post of posts){ %>
         <div class="post">
             <h3>@ <%= post.username %></h3>
@@ -29,7 +27,6 @@
         </div>
     <% } %>
 
-    <!-- Floating New Post Button -->
     <a href="http://localhost:3000/posts/new" class="floating-new-post">+</a>
 </body>
 </html>
