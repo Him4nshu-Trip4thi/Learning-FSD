@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: maroon;
+}
+
+.post{
+    padding: 25px;
+    margin: 5px;
+    border: brown solid 2px;
+    background-color: blanchedalmond;
+    border-radius: 3px;
+}
+
+.user{
+    font-style: italic;
+    font-weight:bolder;
+}
+
+.button{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    background-color: maroon;
+    color: blanchedalmond;
+
+}
+
+.edit{
+    color: maroon;
+}
+
+.info{
+    color: maroon;
+    font-weight: 900;
+    /* border: 5px solid maroon; */
+    padding: 15px;
+    border-radius: 1px;
+    background-color: white;
+}
